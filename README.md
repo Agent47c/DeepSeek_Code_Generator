@@ -19,7 +19,7 @@ Generate Python code with inline comments from natural language prompts using th
 ## 🛠 Installation
 
 ```bash
-git clone [https://github.com/your-username/deepseek-code-generator.git](https://github.com/Agent47c/DeepSeek_Code_Generator.git   )
+git clone (https://github.com/Agent47c/DeepSeek_Code_Generator.git   )
 cd deepseek-code-generator
 pip install torch transformers gradio
 ```
