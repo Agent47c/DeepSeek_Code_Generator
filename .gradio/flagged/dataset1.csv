@@ -1,0 +1,50 @@
+Enter Your Prompt,Generated Python Code,timestamp
+create the python script that help me remove empty and selected labels ( classes  ) from yolo models dataset the clsses i provides throught number such as 0 1 2 etc abd the program check every txt file and remove the line or label if started with the given class number and if the file is empty delete the txt file and also the image file im goin to provide the folder of images and labels,"create the python script that help me remove empty and selected labels ( classes  ) from yolo models dataset the clsses i provides throught number such as 0 1 2 etc abd the program check every txt file and remove the line or label if started with the given class number and if the file is empty delete the txt file and also the image file im goin to provide the folder of images and labels with the name of the class and the classes in the folder with the format : class_name.txt and class_name.png
+import os
+
+# the folder of images and labels
+images_folder = ""images_folder""
+labels_folder = ""labels_folder""
+
+# the classes i want to remove
+classes = [""0""]
+
+# the folder where the filtered images and labels will be saved
+filtered_images_folder = ""filtered_images_folder""
+filtered_labels_folder = ""filtered_labels_folder""
+
+# loop through each class
+for class_name in classes:
+    # create the folders for the filtered images and labels
+    filtered_class_images_folder = os.path.join(filtered_images_folder, class_name)
+    filtered_class_labels_folder = os.path.join(filtered_labels_folder, class_name)
+    os.makedirs(filtered_class_images_folder, exist_ok=True)
+    os.makedirs(filtered_class_labels_folder, exist_ok=True)
+
+    # loop through each image and",2025-05-12 02:09:41.250378
+create a simple clock and calender in python,"create a simple clock and calender in python
+
+import datetime
+
+# clock
+import time
+
+print(""--------------------- Clock ---------------------"")
+
+print(time.asctime())
+print(time.strftime(""%I:%M %p""))
+
+# calender
+import calendar
+
+print(calendar.calendar(2022))
+
+print(calendar.isleap(2022))
+
+print(calendar.weekday(2022, 12, 2))
+
+print(calendar.month(2022, 12))
+
+print(calendar.monthrange(2022, 12))
+
+print(calendar.prcal(2022))",2025-05-12 02:13:29.846601
