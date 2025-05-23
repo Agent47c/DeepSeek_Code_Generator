@@ -46,7 +46,7 @@ POST http://127.0.0.1:5000/generate
 ```bash
 Write a Python function to calculate factorial using recursion with inline comments.
 ```
-## Demo Screenshot ## Click On The Image To Play Video
+## Demo Screenshot ( Click On The Image To Play Video )
 ![App UI showing code generation output](/Demo.png)
 ## Demo Video
 [![App UI showing code generation output](Demo.png)](https://drive.google.com/file/d/1FcBZtFWoNeZ7nV3HNYd0o0ymHYTpnUhB/view?usp=sharing)
