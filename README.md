@@ -49,7 +49,7 @@ Write a Python function to calculate factorial using recursion with inline comme
 ## Demo Screenshot
 ![App UI showing code generation output](/Demo.png)
 ## Demo Video
-![App UI showing code generation output](https://drive.google.com/file/d/1FcBZtFWoNeZ7nV3HNYd0o0ymHYTpnUhB/view?usp=sharing)
+[![App UI showing code generation output](Demo.png)](https://drive.google.com/file/d/1FcBZtFWoNeZ7nV3HNYd0o0ymHYTpnUhB/view?usp=sharing)
 
 ## 📄 License
 MIT License
